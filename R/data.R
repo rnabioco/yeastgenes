@@ -3,8 +3,8 @@
 #' Expression of *S. cerevisiae* genes during chemostat growth under
 #' nutrient limitation.
 #'
-#' @source https://pubmed.ncbi.nlm.nih.gov/17959824/
-#' @seealso http://varianceexplained.org/files/Brauer2008_DataSet1.tds
+#' @source \url{https://pubmed.ncbi.nlm.nih.gov/17959824/}
+#' @seealso \url{http://varianceexplained.org/files/Brauer2008_DataSet1.tds}
 #'
 #' @format
 #' A tibble with 199,296 rows and 4 columns:
@@ -20,7 +20,7 @@
 #'
 #' Gene ontology terms for *S. cerevisiae* genes
 #'
-#' @seealso https://geneontology.org/docs/ontology-documentation/
+#' @seealso \url{https://geneontology.org/docs/ontology-documentation/}
 #'
 #' @format
 #' A tibble with 5,537 rows and 4 columns
@@ -36,8 +36,8 @@
 #'
 #' Protein properties for *S. cerevisiae* genes
 #'
-#' @source http://sgd-archive.yeastgenome.org/curation/calculated_protein_info/protein_properties.tab
-#' @seealso http://sgd-archive.yeastgenome.org/curation/calculated_protein_info/protein_properties.README
+#' @source \url{http://sgd-archive.yeastgenome.org/curation/calculated_protein_info/protein_properties.tab]
+#' @seealso \url{http://sgd-archive.yeastgenome.org/curation/calculated_protein_info/protein_properties.README}
 #'
 #' @format
 #' A tibble with 6,724 rows and 38 columns

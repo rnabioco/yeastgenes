@@ -1,5 +1,5 @@
 ---
-title: "tidy-expression"
+title: "Tidy analysis of yeast gene expression"
 vignette: >
   %\VignetteIndexEntry{tidy-expression}
   %\VignetteEngine{quarto::html}

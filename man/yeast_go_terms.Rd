@@ -20,6 +20,6 @@ yeast_go_terms
 Gene ontology terms for \emph{S. cerevisiae} genes
 }
 \seealso{
-https://geneontology.org/docs/ontology-documentation/
+\url{https://geneontology.org/docs/ontology-documentation/}
 }
 \keyword{datasets}

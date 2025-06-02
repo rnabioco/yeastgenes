@@ -14,7 +14,7 @@ A tibble with 199,296 rows and 4 columns:
 }
 }
 \source{
-https://pubmed.ncbi.nlm.nih.gov/17959824/
+\url{https://pubmed.ncbi.nlm.nih.gov/17959824/}
 }
 \usage{
 yeast_gene_exp
@@ -24,6 +24,6 @@ Expression of \emph{S. cerevisiae} genes during chemostat growth under
 nutrient limitation.
 }
 \seealso{
-http://varianceexplained.org/files/Brauer2008_DataSet1.tds
+\url{http://varianceexplained.org/files/Brauer2008_DataSet1.tds}
 }
 \keyword{datasets}
