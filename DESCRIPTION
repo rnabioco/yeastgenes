@@ -1,5 +1,5 @@
 Package: yeastgenes
-Title: Yeast gene expression and associated protein function data
+Title: Yeast gene expression data
 Version: 0.1.0
 Authors@R:
     person("Jay", "Hesselberth", , "jay.hesselberth@cuanschutz.edu", role = c("aut", "cre"),
@@ -9,9 +9,10 @@ Description: Provides gene expression data from Brauer et al. (PMID
     limitation in a chemostat. Also provides data from the Saccharomyces
     Genome Database.
 License: MIT + file LICENSE
-URL: https://rnabioco.github.io/yeastgenes
+URL: https://github.com/rnabioco/yeastgenes/, https://rnabioco.github.io/yeastgenes
+BugReports: https://github.com/rnabioco/yeastgenes/issues
 Depends:
-    R (>= 3.5)
+    R (>= 4.0)
 Imports:
     tibble
 Config/Needs/website: pkgdown, rnabioco/rbitemplate
