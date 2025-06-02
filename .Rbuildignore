@@ -1,0 +1,11 @@
+^yeastgenes\.Rproj$
+^\.Rproj\.user$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^data-raw$
+^\.github$
+^[\.]?air\.toml$
+^\.vscode$
+^LICENSE\.md$
+^README\.Rmd$

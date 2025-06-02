@@ -1,0 +1,21 @@
+Package: yeastgenes
+Title: Yeast gene expression and associated protein function data.
+Version: 0.1.0
+Authors@R:
+    person("Jay", "Hesselberth", , "jay.hesselberth@cuanschutz.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-6299-179X"))
+Description: Provides gene expression data from Brauer et al. (PMID
+    17959824) for *Saccharomyces cerevisiae* grown under nutrient
+    limitation in a chemostat. Also provides data from the Saccharomyces
+    Genome Database.
+License: MIT + file LICENSE
+URL: https://rnabioco.github.io/yeastgenes
+Depends:
+    R (>= 3.5)
+Imports:
+    tibble
+Config/Needs/website:pkgdown, rnabioco/rbitemplate
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

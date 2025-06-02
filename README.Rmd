@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# yeastgenes
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/rnabioco/yeastgenes/actions/workflows/R-CMD-check.yaml/badge.svghttps://github.com/rnabioco/yeastgenes/actions/workflows/R-CMD-check.yaml/badge.svghttps://github.com/rnabioco/yeastgenes/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/rnabioco/yeastgenes/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+The goal of yeastgenes is to provide gene expression data from yeast.
+
+## Installation
+
+You can install the development version of yeastgenes from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("pak")
+pak::pak("rnabioco/yeastgenes")
+```
+
+## Example
+
+```{r}
+# label: example
+library(yeastgenes)
+yeast_gene_exp
+
+yeast_go_terms
+
+yeast_prot_props
+```
+
+## Previous work

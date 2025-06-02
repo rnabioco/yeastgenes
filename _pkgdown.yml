@@ -1,0 +1,4 @@
+url: https://rnabioco.github.io/yeastgenes
+template:
+  package: rbitemplate
+  bootstrap: 5
