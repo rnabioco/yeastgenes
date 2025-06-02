@@ -3,7 +3,7 @@ pkgdown: 2.1.3
 pkgdown_sha: ~
 articles:
   tidy-expression: tidy-expression.html
-last_built: 2025-06-02T15:17Z
+last_built: 2025-06-02T15:21Z
 urls:
   reference: https://rnabioco.github.io/yeastgenes/reference
   article: https://rnabioco.github.io/yeastgenes/articles
