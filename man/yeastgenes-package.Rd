@@ -4,7 +4,7 @@
 \name{yeastgenes-package}
 \alias{yeastgenes}
 \alias{yeastgenes-package}
-\title{yeastgenes: Yeast gene expression and associated protein function data.}
+\title{yeastgenes: Yeast gene expression and associated protein function data}
 \description{
 Provides gene expression data from Brauer et al. (PMID 17959824) for *Saccharomyces cerevisiae* grown under nutrient limitation in a chemostat. Also provides data from the Saccharomyces Genome Database.
 }

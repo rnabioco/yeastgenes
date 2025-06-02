@@ -36,7 +36,7 @@
 #'
 #' Protein properties for *S. cerevisiae* genes
 #'
-#' @source \url{http://sgd-archive.yeastgenome.org/curation/calculated_protein_info/protein_properties.tab]
+#' @source \url{http://sgd-archive.yeastgenome.org/curation/calculated_protein_info/protein_properties.tab}
 #' @seealso \url{http://sgd-archive.yeastgenome.org/curation/calculated_protein_info/protein_properties.README}
 #'
 #' @format

@@ -14,7 +14,7 @@ A tibble with 6,724 rows and 38 columns
 }
 }
 \source{
-\url{http://sgd-archive.yeastgenome.org/curation/calculated_protein_info/protein_properties.tab]
+\url{http://sgd-archive.yeastgenome.org/curation/calculated_protein_info/protein_properties.tab}
 }
 \usage{
 yeast_prot_props
