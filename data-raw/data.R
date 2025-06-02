@@ -77,7 +77,8 @@ yeast_gene_exp <-
     everything(),
     -nutrient_abbr
   ) |>
-  mutate(across(c(rate, nutrient), as_factor)) |>
+  mutate(across(c(nutrient), as_factor)) |>
+  mutate(across(c(rate), as.numeric)) |>
   arrange(desc(systematic_name), nutrient, rate)
 
 usethis::use_data(yeast_gene_exp, overwrite = TRUE)
