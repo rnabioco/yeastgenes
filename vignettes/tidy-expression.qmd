@@ -1,0 +1,38 @@
+---
+title: "tidy-expression"
+vignette: >
+  %\VignetteIndexEntry{tidy-expression}
+  %\VignetteEngine{quarto::html}
+  %\VignetteEncoding{UTF-8}
+knitr:
+  opts_chunk:
+    collapse: true
+    comment: '#>'
+---
+
+This vignette explores yeast gene expression data based on the previous and excellent analysis by David Robinson is earlier blog posts [here](http://varianceexplained.org/r/tidy-genomics/) and [here](http://varianceexplained.org/r/tidy-genomics-broom/).
+
+```{r}
+#| label: leu-plot
+#| message: false
+library(yeastgenes)
+library(tidyverse)
+library(cowplot)
+library(ggokabeito)
+
+yeast_gene_exp |>
+  left_join(yeast_go_terms) |>
+  filter(go_biological_process == "leucine biosynthesis") |>
+  ggplot(
+    aes(
+      rate,
+      exp,
+      color = nutrient
+    )
+  ) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE) +
+  facet_wrap(~ common_name + systematic_name) +
+  theme_cowplot() +
+  scale_color_okabe_ito()
+```

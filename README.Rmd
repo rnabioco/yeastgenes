@@ -33,13 +33,12 @@ pak::pak("rnabioco/yeastgenes")
 ## Example
 
 ```{r}
-# label: example
+#| label: show-data
 library(yeastgenes)
+
 yeast_gene_exp
 
 yeast_go_terms
 
 yeast_prot_props
 ```
-
-## Previous work

@@ -23,8 +23,8 @@ pak::pak("rnabioco/yeastgenes")
 ## Example
 
 ``` r
-# label: example
 library(yeastgenes)
+
 yeast_gene_exp
 #> # A tibble: 199,296 × 4
 #>    systematic_name nutrient rate    exp
@@ -79,5 +79,3 @@ yeast_prot_props
 #> #   val <dbl>, trp <dbl>, tyr <dbl>, carbon <dbl>, hydrogen <dbl>,
 #> #   nitrogen <dbl>, oxygen <dbl>, sulphur <dbl>, instability_index_ii <dbl>, …
 ```
-
-## Previous work
